@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="form03.css">
+	</head>
+
+	<body>
+		<main><br>
+		  <div id="main-div">
+		    <h1 id="title">Music Producer Survey</h1>
+		    <p id="description">Most used DAWs and Plugins Research</p>
+		    <form id="survey-form">
+		      <label for="name" id="name-label">Name</label><br>
+		      <input type="name" id="name" name="name" placeholder="Enter your name" required><br><br>
+		      <label for="email" id="email-label">Email</label><br>
+		      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+		      <label for="number" id="number-label">What is your age?</label><br>
+		      <input type="number" id="number" name="number" min="12" max="120" placeholder="Between 12 and 120"><br><br>
+		      <label for="dropdown" id="dropdown-label">What is your DAW of choice?</label><br>
+		      <select id="dropdown" name="dropdown">
+		        <option value="" disabled selected>Make a selection</option>
+		        <option value="protools">Pro Tools</option>
+		        <option value="reaper">Reaper</option>
+		        <option value="studio1">Studio One</option>
+		        <option value="logicprox">Logic Pro X</option>
+		        <option value="abletonlive">Ableton Live</option>
+		        <option value="flstudio">FL Studio</option>
+		        <option value="cakewalk">Cakewalk by Bandlab</option>
+		        <option value="bitwig">Bitwig Studio</option>
+		        <option value="other">Other</option>
+		      </select><br>
+		      <p>Which Plugin Developer is the best in your opinion?</p>
+		      <input type="radio" id="waves" name="plugincompany" value="waves">
+		      <label for="waves">Waves</label><br>
+		      <input type="radio" id="slate" name="plugincompany" value="slate">
+		      <label for="slate">Slate Digital</label><br>
+		      <input type="radio" id="uad" name="plugincompany" value="uad">
+		      <label for="uad">Universal Audio</label><br>
+		      <input type="radio" id="pa" name="plugincompany" value="pa">
+		      <label for="pa">Plugin Alliance</label><br>
+		      <input type="radio" id="fab" name="plugincompany" value="fab">
+		      <label for="fab">Fab Filter</label><br>
+		      <input type="radio" id="other" name="plugincompany" value="other">
+		      <label for="other">Other</label><br>
+		      <p>What do you do?</p>
+		      <input type="checkbox" id="musicprod" name="musicprod" value="musicprod">
+		      <label for="musicprod">Music Production</label><br>
+		      <input type="checkbox" id="songwriting" name="songwriting" value="songwriting">
+		      <label for="songwriting">Song Writing</label><br>
+		      <input type="checkbox" id="mixing" name="mixing" value="mixing">
+		      <label for="mixing">Mixing</label><br>
+		      <input type="checkbox" id="mastering" name="mastering" value="mastering">
+		      <label for="mastering">Mastering</label><br>
+		      <input type="checkbox" id="none" name="none" value="none">
+		      <label for="none">None of the above</label><br><br>
+		      <label for="textarea">What is your biggest struggle in the Music Industry?</label><br>
+		      <textarea id="textarea" name="textarea" form="survey-form"></textarea><br>
+		      <input type="submit" id="submit" name="submit" value="Submit">
+		    </form>
+		  </div><br><br>
+		</main>
+
+	</body>
+</html>

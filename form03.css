@@ -1,0 +1,63 @@
+#main-div {
+  font-family: verdana;
+  border-radius: 7px;
+  width: 720px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 7px 14px 0 #ebebeb, 0 7px 19px 0 #ebebeb;
+}
+
+form {
+  padding: 34px;
+}
+
+#title,
+#description {
+  text-align: center;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title {
+  padding-top: 34px;
+}
+
+#name,
+#email,
+#number,
+#dropdown {
+  display: inline-block;
+  box-sizing: border-box; /* Important to align sides of input fields */
+  margin-top: 5px;
+  padding-left: 7px;
+  width: 100%;
+  height: 34px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#textarea {
+  display: block;
+  margin-top: 5px;
+  border-radius: 7px;
+  width: 100%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#submit {
+  font-size: 17px;
+  width: 100px;
+  height: 34px;
+  background-color: white;
+  border-width: 1px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#submit:hover {
+  box-shadow: 0 3px 7px 0 #e8e8e8, 0 3px 7px 0 #e8e8e8;
+}
